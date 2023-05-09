@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Raz Calcu</title>
+	<link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+
+	<section class="Calculator">
+		<form>
+			<input type="text" id="screen">
+		</form>
+		
+		<div class="buttons">
+			<button type="button" class="btn-yellow" onclick="
+			multi();
+			">*</button>
+			<button type="button" class="btn-yellow" onclick="
+			divi();
+			">/</button>
+			<button type="button" class="btn-yellow" onclick="
+			mini();
+			">-</button>
+			<button type="button" class="btn-yellow" onclick="
+			 add();
+			">+</button>
+
+			<button type="button" class="btn-grey" onclick="
+			 nine();
+			">9</button>
+			<button type="button" class="btn-grey" onclick="
+			 eight();
+			">8</button>
+			<button type="button" class="btn-grey" onclick="
+			 seven();
+			">7</button>
+			<button type="button" class="btn-grey" onclick="
+			six();
+			">6</button>
+			<button type="button" class="btn-grey" onclick="
+			 five();
+			">5</button>
+			<button type="button" class="btn-grey" onclick="
+			 four();
+			">4</button>
+			<button type="button" class="btn-grey" onclick="
+			three();
+			">3</button>
+			<button type="button" class="btn-grey" onclick="
+			two();
+			">2</button>
+			<button type="button" class="btn-grey" onclick="
+			one();
+			">1</button>
+			<button type="button" class="btn-grey" onclick="
+			zero();
+			">0</button>
+			<button type="button" class="btn-grey" onclick="
+			dot();
+			">.</button>
+
+			<button type="button" class="btn-equal" onclick="
+			equal();
+			">=</button>
+			<button type="button" class="btn-clear" onclick="
+			funclear();
+			">AC</button>
+			
+			<button type="button" class="btn-clear" onclick="
+			del();
+			">DEL</button>
+
+
+
+		</div>
+	</section>
+	<script src="Calculator.js"></script>
+</body>
+
+
+</html>
